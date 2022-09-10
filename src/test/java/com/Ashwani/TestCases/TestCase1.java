@@ -167,6 +167,14 @@ public void CheckCartAfterOrder(HashMap<String,String> details) throws Interrupt
     System.out.println("yes");
     System.out.println("yes");
     System.out.println("yes");
+
+ System.out.println("yup");
+    System.out.println("yup");
+    System.out.println("yup");
+    System.out.println("yup");
+    System.out.println("yup");
+    System.out.println("yup");
+
 	
 }
 

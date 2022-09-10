@@ -160,6 +160,13 @@ public void CheckCartAfterOrder(HashMap<String,String> details) throws Interrupt
     OrderConfirmationWebPageRef=PaymentWebPageRef.submit();
     OrderConfirmationWebPageRef=OrderConfirmationWebPageRef.orderConfirmationByText();
     OrderConfirmationWebPageRef.cart();
+    
+    System.out.println("yes");
+    System.out.println("yes");
+    System.out.println("yes");
+    System.out.println("yes");
+    System.out.println("yes");
+    System.out.println("yes");
 	
 }
 

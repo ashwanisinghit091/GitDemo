@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="com.Ashwani.TestCases.Listeners"/>
+  </listeners>
+  <test parallel="tests" name="Login(failed)">
+    <classes>
+      <class name="com.Ashwani.TestCases.TestCase1">
+        <methods>
+          <include name="closeCurrentWindow"/>
+          <include name="validateLoginWithWrongCred" invocation-numbers="0 0 0 1"/>
+          <include name="nvokeApplication"/>
+        </methods>
+      </class> <!-- com.Ashwani.TestCases.TestCase1 -->
+      <class name="com.Ashwani.TestCases.TestCase2">
+        <methods>
+          <include name="Intialization"/>
+          <include name="closeCurrentWindow"/>
+        </methods>
+      </class> <!-- com.Ashwani.TestCases.TestCase2 -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="11" passed="7" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-09T06:48:14Z" name="Suite" finished-at="2022-09-09T06:50:46Z" duration-ms="151856">
+    <groups>
+      <group name="Smoke">
+        <method signature="TestCase1.validateLoginWithCorrectCred(java.util.HashMap)[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" name="validateLoginWithCorrectCred" class="com.Ashwani.TestCases.TestCase1"/>
+        <method signature="TestCase2.identifyUnaddedProductInCart()[pri:0, instance:com.Ashwani.TestCases.TestCase2@5fbdfdcf]" name="identifyUnaddedProductInCart" class="com.Ashwani.TestCases.TestCase2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-09-09T06:48:14Z" name="ProductCheckinCart" finished-at="2022-09-09T06:48:27Z" duration-ms="12251">
+      <class name="com.Ashwani.TestCases.TestCase2">
+        <test-method is-config="true" signature="Intialization()[pri:0, instance:com.Ashwani.TestCases.TestCase2@5fbdfdcf]" started-at="2022-09-09T12:18:14Z" name="Intialization" finished-at="2022-09-09T12:18:24Z" duration-ms="9237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Intialization -->
+        <test-method signature="identifyUnaddedProductInCart()[pri:0, instance:com.Ashwani.TestCases.TestCase2@5fbdfdcf]" started-at="2022-09-09T12:18:24Z" name="identifyUnaddedProductInCart" finished-at="2022-09-09T12:18:27Z" duration-ms="2972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- identifyUnaddedProductInCart -->
+        <test-method is-config="true" signature="closeCurrentWindow()[pri:0, instance:com.Ashwani.TestCases.TestCase2@5fbdfdcf]" started-at="2022-09-09T12:18:27Z" name="closeCurrentWindow" finished-at="2022-09-09T12:18:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCurrentWindow -->
+      </class> <!-- com.Ashwani.TestCases.TestCase2 -->
+    </test> <!-- ProductCheckinCart -->
+    <test started-at="2022-09-09T06:48:14Z" name="Login" finished-at="2022-09-09T06:50:46Z" duration-ms="151856">
+      <class name="com.Ashwani.TestCases.TestCase1">
+        <test-method is-config="true" signature="nvokeApplication()[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:18:14Z" name="nvokeApplication" finished-at="2022-09-09T12:18:24Z" duration-ms="9314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nvokeApplication -->
+        <test-method signature="CheckCartAfterOrder(java.util.HashMap)[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:18:24Z" name="CheckCartAfterOrder" data-provider="getData" finished-at="2022-09-09T12:18:37Z" duration-ms="13549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Email=ashwanis824@gmail.com, FirstProductName=IPHONE 13 PRO, SecondProductName=ADIDAS ORIGINAL, Password=Unacademy@50S}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckCartAfterOrder -->
+        <test-method is-config="true" signature="closeCurrentWindow()[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:18:37Z" name="closeCurrentWindow" finished-at="2022-09-09T12:18:37Z" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCurrentWindow -->
+        <test-method is-config="true" signature="nvokeApplication()[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:18:37Z" name="nvokeApplication" finished-at="2022-09-09T12:18:42Z" duration-ms="5087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nvokeApplication -->
+        <test-method signature="CheckCartAfterOrder(java.util.HashMap)[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:18:42Z" name="CheckCartAfterOrder" data-provider="getData" finished-at="2022-09-09T12:18:55Z" duration-ms="12209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Email=ashwanis824@gmail.com, FirstProductName=ZARA COAT 3, SecondProductName=ADIDAS ORIGINAL, Password=Unacademy@50S}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckCartAfterOrder -->
+        <test-method is-config="true" signature="closeCurrentWindow()[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:18:55Z" name="closeCurrentWindow" finished-at="2022-09-09T12:18:55Z" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCurrentWindow -->
+        <test-method is-config="true" signature="nvokeApplication()[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:18:55Z" name="nvokeApplication" finished-at="2022-09-09T12:19:01Z" duration-ms="5265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nvokeApplication -->
+        <test-method signature="validateLoginWithCorrectCred(java.util.HashMap)[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:19:01Z" name="validateLoginWithCorrectCred" data-provider="getDataFromJason" finished-at="2022-09-09T12:19:12Z" duration-ms="11677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Email=ashwanis824@gmail.com, FirstProductName=ADIDAS ORIGINAL, SecondProductName=IPHONE 13 PRO, Password=Unacademy@50S}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithCorrectCred -->
+        <test-method is-config="true" signature="closeCurrentWindow()[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:19:12Z" name="closeCurrentWindow" finished-at="2022-09-09T12:19:12Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCurrentWindow -->
+        <test-method is-config="true" signature="nvokeApplication()[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:19:12Z" name="nvokeApplication" finished-at="2022-09-09T12:19:18Z" duration-ms="5433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nvokeApplication -->
+        <test-method signature="validateLoginWithCorrectCred(java.util.HashMap)[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:19:18Z" name="validateLoginWithCorrectCred" data-provider="getDataFromJason" finished-at="2022-09-09T12:19:29Z" duration-ms="11213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Email=ashwanis824@gmail.com, FirstProductName=ZARA COAT 3, SecondProductName=ADIDAS ORIGINAL, Password=Unacademy@50S}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithCorrectCred -->
+        <test-method is-config="true" signature="closeCurrentWindow()[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:19:29Z" name="closeCurrentWindow" finished-at="2022-09-09T12:19:29Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCurrentWindow -->
+        <test-method is-config="true" signature="nvokeApplication()[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:19:29Z" name="nvokeApplication" finished-at="2022-09-09T12:19:35Z" duration-ms="5710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nvokeApplication -->
+        <test-method signature="validateLoginWithValidCred(java.lang.String, java.lang.String)[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:19:35Z" name="validateLoginWithValidCred" data-provider="getDataForLogin" finished-at="2022-09-09T12:19:36Z" duration-ms="852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashwanis824@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Unacademy@50S]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithValidCred -->
+        <test-method is-config="true" signature="closeCurrentWindow()[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:19:36Z" name="closeCurrentWindow" finished-at="2022-09-09T12:19:36Z" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCurrentWindow -->
+        <test-method is-config="true" signature="nvokeApplication()[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:19:36Z" name="nvokeApplication" finished-at="2022-09-09T12:19:41Z" duration-ms="4844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nvokeApplication -->
+        <test-method signature="validateLoginWithValidCred(java.lang.String, java.lang.String)[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:19:41Z" name="validateLoginWithValidCred" data-provider="getDataForLogin" finished-at="2022-09-09T12:19:41Z" duration-ms="881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashwanis824@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Unacademy@50S]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithValidCred -->
+        <test-method is-config="true" signature="closeCurrentWindow()[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:19:41Z" name="closeCurrentWindow" finished-at="2022-09-09T12:19:42Z" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCurrentWindow -->
+        <test-method is-config="true" signature="nvokeApplication()[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:19:42Z" name="nvokeApplication" finished-at="2022-09-09T12:19:51Z" duration-ms="9737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nvokeApplication -->
+        <test-method signature="validateLoginWithWrongCred(java.lang.String, java.lang.String)[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:19:51Z" name="validateLoginWithWrongCred" data-provider="getDataForLogin" finished-at="2022-09-09T12:19:54Z" duration-ms="2345" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashwanis824@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Unacademy@50S]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Login Successfully] but found [ Incorrect email or password. ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Login Successfully] but found [ Incorrect email or password. ]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.Ashwani.WebPagesPackage.LoginWebPage.inValidLogin(LoginWebPage.java:67)
+	at com.Ashwani.TestCases.TestCase1.validateLoginWithWrongCred(TestCase1.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithWrongCred -->
+        <test-method is-config="true" signature="closeCurrentWindow()[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:19:54Z" name="closeCurrentWindow" finished-at="2022-09-09T12:19:55Z" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCurrentWindow -->
+        <test-method is-config="true" signature="nvokeApplication()[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:19:55Z" name="nvokeApplication" finished-at="2022-09-09T12:20:12Z" duration-ms="17837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nvokeApplication -->
+        <test-method signature="validateLoginWithWrongCred(java.lang.String, java.lang.String)[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:20:12Z" name="validateLoginWithWrongCred" data-provider="getDataForLogin" finished-at="2022-09-09T12:20:15Z" duration-ms="2347" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashwanis824@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Unacademy@50S]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Login Successfully] but found [ Incorrect email or password. ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Login Successfully] but found [ Incorrect email or password. ]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.Ashwani.WebPagesPackage.LoginWebPage.inValidLogin(LoginWebPage.java:67)
+	at com.Ashwani.TestCases.TestCase1.validateLoginWithWrongCred(TestCase1.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithWrongCred -->
+        <test-method is-config="true" signature="closeCurrentWindow()[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:20:15Z" name="closeCurrentWindow" finished-at="2022-09-09T12:20:15Z" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCurrentWindow -->
+        <test-method is-config="true" signature="nvokeApplication()[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:20:15Z" name="nvokeApplication" finished-at="2022-09-09T12:20:29Z" duration-ms="13966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nvokeApplication -->
+        <test-method signature="validateLoginWithWrongCred(java.lang.String, java.lang.String)[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:20:29Z" name="validateLoginWithWrongCred" data-provider="getDataForLogin" finished-at="2022-09-09T12:20:31Z" duration-ms="1720" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashwanis824@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Unacademy@50S]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Login Successfully] but found [ Incorrect email or password. ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Login Successfully] but found [ Incorrect email or password. ]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.Ashwani.WebPagesPackage.LoginWebPage.inValidLogin(LoginWebPage.java:67)
+	at com.Ashwani.TestCases.TestCase1.validateLoginWithWrongCred(TestCase1.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithWrongCred -->
+        <test-method is-config="true" signature="closeCurrentWindow()[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:20:32Z" name="closeCurrentWindow" finished-at="2022-09-09T12:20:32Z" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCurrentWindow -->
+        <test-method is-config="true" signature="nvokeApplication()[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:20:32Z" name="nvokeApplication" finished-at="2022-09-09T12:20:44Z" duration-ms="12635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nvokeApplication -->
+        <test-method signature="validateLoginWithWrongCred(java.lang.String, java.lang.String)[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:20:44Z" name="validateLoginWithWrongCred" data-provider="getDataForLogin" finished-at="2022-09-09T12:20:46Z" duration-ms="1495" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashwanis824@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Unacademy@50S]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Login Successfully] but found [ Incorrect email or password. ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Login Successfully] but found [ Incorrect email or password. ]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.Ashwani.WebPagesPackage.LoginWebPage.inValidLogin(LoginWebPage.java:67)
+	at com.Ashwani.TestCases.TestCase1.validateLoginWithWrongCred(TestCase1.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithWrongCred -->
+        <test-method is-config="true" signature="closeCurrentWindow()[pri:0, instance:com.Ashwani.TestCases.TestCase1@6bedbc4d]" started-at="2022-09-09T12:20:46Z" name="closeCurrentWindow" finished-at="2022-09-09T12:20:46Z" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCurrentWindow -->
+      </class> <!-- com.Ashwani.TestCases.TestCase1 -->
+    </test> <!-- Login -->
+  </suite> <!-- Suite -->
+</testng-results>

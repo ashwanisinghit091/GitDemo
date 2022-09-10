@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.Ashwani.TestCases.TestCase2">
+        <methods>
+          <include name="Intialization"/>
+          <include name="closeCurrentWindow"/>
+        </methods>
+      </class> <!-- com.Ashwani.TestCases.TestCase2 -->
+      <class name="com.Ashwani.TestCases.TestCase1">
+        <methods>
+          <include name="closeCurrentWindow"/>
+          <include name="validateLoginWithWrongCred" invocation-numbers="0 0 0 1"/>
+          <include name="nvokeApplication"/>
+        </methods>
+      </class> <!-- com.Ashwani.TestCases.TestCase1 -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

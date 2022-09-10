@@ -1,0 +1,281 @@
+<html>
+<head>
+<title>TestNG:  Login</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Login</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/4/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 09 12:18:14 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>151 seconds (151856 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Ashwani.TestCases.TestCase1.validateLoginWithWrongCred()'><b>validateLoginWithWrongCred</b><br>Test class: com.Ashwani.TestCases.TestCase1<br>Parameters: ashwanis824@gmail.com, Unacademy@50S</td>
+<td><div><pre>java.lang.AssertionError: expected [Login Successfully] but found [ Incorrect email or password. ]
+	at com.Ashwani.WebPagesPackage.LoginWebPage.inValidLogin(LoginWebPage.java:67)
+	at com.Ashwani.TestCases.TestCase1.validateLoginWithWrongCred(TestCase1.java:84)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2112008680", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2112008680'><pre>java.lang.AssertionError: expected [Login Successfully] but found [ Incorrect email or password. ]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.Ashwani.WebPagesPackage.LoginWebPage.inValidLogin(LoginWebPage.java:67)
+	at com.Ashwani.TestCases.TestCase1.validateLoginWithWrongCred(TestCase1.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>2</td>
+<td>com.Ashwani.TestCases.TestCase1@6bedbc4d</td></tr>
+<tr>
+<td title='com.Ashwani.TestCases.TestCase1.validateLoginWithWrongCred()'><b>validateLoginWithWrongCred</b><br>Test class: com.Ashwani.TestCases.TestCase1<br>Parameters: ashwanis824@gmail.com, Unacademy@50S</td>
+<td><div><pre>java.lang.AssertionError: expected [Login Successfully] but found [ Incorrect email or password. ]
+	at com.Ashwani.WebPagesPackage.LoginWebPage.inValidLogin(LoginWebPage.java:67)
+	at com.Ashwani.TestCases.TestCase1.validateLoginWithWrongCred(TestCase1.java:84)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1651184677", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1651184677'><pre>java.lang.AssertionError: expected [Login Successfully] but found [ Incorrect email or password. ]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.Ashwani.WebPagesPackage.LoginWebPage.inValidLogin(LoginWebPage.java:67)
+	at com.Ashwani.TestCases.TestCase1.validateLoginWithWrongCred(TestCase1.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>2</td>
+<td>com.Ashwani.TestCases.TestCase1@6bedbc4d</td></tr>
+<tr>
+<td title='com.Ashwani.TestCases.TestCase1.validateLoginWithWrongCred()'><b>validateLoginWithWrongCred</b><br>Test class: com.Ashwani.TestCases.TestCase1<br>Parameters: ashwanis824@gmail.com, Unacademy@50S</td>
+<td><div><pre>java.lang.AssertionError: expected [Login Successfully] but found [ Incorrect email or password. ]
+	at com.Ashwani.WebPagesPackage.LoginWebPage.inValidLogin(LoginWebPage.java:67)
+	at com.Ashwani.TestCases.TestCase1.validateLoginWithWrongCred(TestCase1.java:84)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1645292552", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1645292552'><pre>java.lang.AssertionError: expected [Login Successfully] but found [ Incorrect email or password. ]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.Ashwani.WebPagesPackage.LoginWebPage.inValidLogin(LoginWebPage.java:67)
+	at com.Ashwani.TestCases.TestCase1.validateLoginWithWrongCred(TestCase1.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>1</td>
+<td>com.Ashwani.TestCases.TestCase1@6bedbc4d</td></tr>
+<tr>
+<td title='com.Ashwani.TestCases.TestCase1.validateLoginWithWrongCred()'><b>validateLoginWithWrongCred</b><br>Test class: com.Ashwani.TestCases.TestCase1<br>Parameters: ashwanis824@gmail.com, Unacademy@50S</td>
+<td><div><pre>java.lang.AssertionError: expected [Login Successfully] but found [ Incorrect email or password. ]
+	at com.Ashwani.WebPagesPackage.LoginWebPage.inValidLogin(LoginWebPage.java:67)
+	at com.Ashwani.TestCases.TestCase1.validateLoginWithWrongCred(TestCase1.java:84)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace788196497", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace788196497'><pre>java.lang.AssertionError: expected [Login Successfully] but found [ Incorrect email or password. ]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.Ashwani.WebPagesPackage.LoginWebPage.inValidLogin(LoginWebPage.java:67)
+	at com.Ashwani.TestCases.TestCase1.validateLoginWithWrongCred(TestCase1.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>1</td>
+<td>com.Ashwani.TestCases.TestCase1@6bedbc4d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Ashwani.TestCases.TestCase1.CheckCartAfterOrder()'><b>CheckCartAfterOrder</b><br>Test class: com.Ashwani.TestCases.TestCase1<br>Parameters: {Email=ashwanis824@gmail.com, FirstProductName=IPHONE 13 PRO, SecondProductName=ADIDAS ORIGINAL, Password=Unacademy@50S}</td>
+<td></td>
+<td>13</td>
+<td>com.Ashwani.TestCases.TestCase1@6bedbc4d</td></tr>
+<tr>
+<td title='com.Ashwani.TestCases.TestCase1.CheckCartAfterOrder()'><b>CheckCartAfterOrder</b><br>Test class: com.Ashwani.TestCases.TestCase1<br>Parameters: {Email=ashwanis824@gmail.com, FirstProductName=ZARA COAT 3, SecondProductName=ADIDAS ORIGINAL, Password=Unacademy@50S}</td>
+<td></td>
+<td>12</td>
+<td>com.Ashwani.TestCases.TestCase1@6bedbc4d</td></tr>
+<tr>
+<td title='com.Ashwani.TestCases.TestCase1.validateLoginWithCorrectCred()'><b>validateLoginWithCorrectCred</b><br>Test class: com.Ashwani.TestCases.TestCase1<br>Parameters: {Email=ashwanis824@gmail.com, FirstProductName=ADIDAS ORIGINAL, SecondProductName=IPHONE 13 PRO, Password=Unacademy@50S}</td>
+<td></td>
+<td>11</td>
+<td>com.Ashwani.TestCases.TestCase1@6bedbc4d</td></tr>
+<tr>
+<td title='com.Ashwani.TestCases.TestCase1.validateLoginWithCorrectCred()'><b>validateLoginWithCorrectCred</b><br>Test class: com.Ashwani.TestCases.TestCase1<br>Parameters: {Email=ashwanis824@gmail.com, FirstProductName=ZARA COAT 3, SecondProductName=ADIDAS ORIGINAL, Password=Unacademy@50S}</td>
+<td></td>
+<td>11</td>
+<td>com.Ashwani.TestCases.TestCase1@6bedbc4d</td></tr>
+<tr>
+<td title='com.Ashwani.TestCases.TestCase1.validateLoginWithValidCred()'><b>validateLoginWithValidCred</b><br>Test class: com.Ashwani.TestCases.TestCase1<br>Parameters: ashwanis824@gmail.com, Unacademy@50S</td>
+<td></td>
+<td>0</td>
+<td>com.Ashwani.TestCases.TestCase1@6bedbc4d</td></tr>
+<tr>
+<td title='com.Ashwani.TestCases.TestCase1.validateLoginWithValidCred()'><b>validateLoginWithValidCred</b><br>Test class: com.Ashwani.TestCases.TestCase1<br>Parameters: ashwanis824@gmail.com, Unacademy@50S</td>
+<td></td>
+<td>0</td>
+<td>com.Ashwani.TestCases.TestCase1@6bedbc4d</td></tr>
+</table><p>
+</body>
+</html>

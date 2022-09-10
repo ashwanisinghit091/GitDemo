@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15005" started-at="2022-09-09T16:46:53Z" finished-at="2022-09-09T16:47:08Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="TestCase2.identifyUnaddedProductInCart()[pri:0, instance:com.Ashwani.TestCases.TestCase2@34ce8af7]" name="identifyUnaddedProductInCart" class="com.Ashwani.TestCases.TestCase2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Default test" duration-ms="15005" started-at="2022-09-09T16:46:53Z" finished-at="2022-09-09T16:47:08Z">
+      <class name="com.Ashwani.TestCases.TestCase2">
+        <test-method status="PASS" signature="Intialization()[pri:0, instance:com.Ashwani.TestCases.TestCase2@34ce8af7]" name="Intialization" is-config="true" duration-ms="12417" started-at="2022-09-09T22:16:53Z" finished-at="2022-09-09T22:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Intialization -->
+        <test-method status="PASS" signature="identifyUnaddedProductInCart()[pri:0, instance:com.Ashwani.TestCases.TestCase2@34ce8af7]" name="identifyUnaddedProductInCart" duration-ms="2543" started-at="2022-09-09T22:17:05Z" finished-at="2022-09-09T22:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- identifyUnaddedProductInCart -->
+        <test-method status="PASS" signature="closeCurrentWindow()[pri:0, instance:com.Ashwani.TestCases.TestCase2@34ce8af7]" name="closeCurrentWindow" is-config="true" duration-ms="0" started-at="2022-09-09T22:17:08Z" finished-at="2022-09-09T22:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCurrentWindow -->
+      </class> <!-- com.Ashwani.TestCases.TestCase2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
